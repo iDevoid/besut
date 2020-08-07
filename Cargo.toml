@@ -1,0 +1,14 @@
+[package]
+name = "besut"
+version = "0.1.0"
+authors = ["shoma <muhammadshodiq165@live.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "2.0"
+actix-rt = "1.0"
+sastrawi = "0.1.1"
+serde = "1.0.114"
+dotenv = "0.15.0"
+listenfd = "0.3.3"
+diesel = { version = "1.4.5", features = ["postgres"] }
